@@ -1,0 +1,14 @@
+---
+- name: Install Docker
+  hosts: app
+  become: yes
+
+  roles:
+    - docker
+
+- name: Install PostgeSQL
+  hosts: database
+  become: yes
+
+  roles:
+    - db

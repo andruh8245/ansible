@@ -1,0 +1,3 @@
+---
+data_path: /opt/pgsql/data
+pgsql_version: 13
